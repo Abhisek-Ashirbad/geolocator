@@ -1,5 +1,5 @@
 from fastapi import APIRouter, HTTPException
-from models import GeolocationRequest, GeolocationResponse
+from src.models import GeolocationRequest, GeolocationResponse
 import requests
 import time
 
